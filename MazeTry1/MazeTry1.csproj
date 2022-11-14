@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
     <PackageReference Include="EnyimMemcached" Version="2.16.0" />
   </ItemGroup>
 
