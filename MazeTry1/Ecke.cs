@@ -8,17 +8,17 @@ using System.Threading.Tasks;
 
 namespace MazeTry1
 {
-    public class Ecke
+    public class Ecke<T1, T2>
     {
         internal int data;
-        internal Ecke? next;
+        internal Ecke<T1, T2>? next;
         public Ecke(int d)
         {
             data = d;
             next = null;
             //int value;            
-            Ecke Left;
-            Ecke Right;   
+            Ecke<T1, T2> Left;
+            Ecke<T1, T2> Right;   
         }
     }
 }
